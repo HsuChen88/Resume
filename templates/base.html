@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>{{ title }}</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  {% block stylesheet %}{% endblock stylesheet %}
+</head>
+
+<body class="is-preload">
+  <!-- Nav -->
+  <nav id="nav">
+    <ul class="container">
+      {% block nav %}{% endblock nav %}
+    </ul>
+  </nav>
+  {% block content %}{% endblock content %}
+  {% include 'footer.html' %}
+</body>
+
+</html>

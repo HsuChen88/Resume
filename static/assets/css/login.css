@@ -1,0 +1,40 @@
+.loginblock {
+  min-height: 250px;
+  width: 30vw;
+  min-width: 400px;
+  text-align: left;
+  padding: 50px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background-color: rgb(237, 234, 234);
+}
+.loginblock h1 {
+  text-align: center;
+  font-weight: bold;
+}
+.loginblock input {
+  padding: 2px;
+  border: 2px #8f9da7 groove;
+  border-radius: 3px;
+  width: 100%;
+}
+.loginblock button {
+  width: 100%;
+  height: 50px;
+  padding: 4px;
+  text-align: center;
+  background-color: rgb(16, 111, 179);
+  font-size: large;
+  color: white;
+  border-radius: 6px;
+}
+.loginblock p {
+  padding: 8px;
+  font-size: 120%;
+}
+
+/*# sourceMappingURL=login.css.map */

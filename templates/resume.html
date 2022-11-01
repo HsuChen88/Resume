@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block stylesheet %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="static/assets/css/forResume.css" />
+<link rel="stylesheet" href="static/assets/css/main.css" />
+{% endblock stylesheet %}
+
+{% block nav %}
+<li><a href="/">About Me</a></li>
+{% endblock nav %}
+
+{% block content %}
+<!-- 最後應該可以整個放進來 -->
+<div class="left"></div>
+<div class="stuff">
+    <br><br>
+    <h1>Resume</h1>
+    <h2>鄭旭辰</h2>
+
+    <hr style="margin:10px; border-width: 3px; color:darkgrey">
+    <p class="head">簡歷 Summary</p>
+    <article>
+        我是個目標導向、熱愛解決問題的自學者。從韌體出發最終走向軟體開發的我，漸漸習慣長時間與電腦共處，但追尋人群的天性使我樂於與人共事。我的目標是將軟體開發技能拓展至全端，更全面地掌握資料安全以及前後端技術的運用，成為一名更專業的全端工程師。面對工作，我認為工作必須是生活的一部分，若能對所做的產品充滿憧憬，那必將成為產品開發的原動力。因此，我希望能加入貴公司，由於貴公司所開發之理念與我相符，相關產品也是我期待鑽研已久的，且擁有開放文化的企業何不令人心嚮往之。
+    </article>
+    <hr style="margin:10px; color:darkgrey">
+    <p class="head">工作經驗 Experiences</p>
+    <ul>
+        <li><span class="list">Shawning Shop (鍵盤購物網站)</span></li>
+        <span>此專案目標是在10天內模仿目前線上有的的購物電商平台實作出自己的購物平台，並與另一人分工完成此專案。
+            而我的工作內容著重在後端資料處理與資料庫連接與部分美化設計，使用日前效率較佳的資料庫設計原理，提升了資料的整潔與效率；也特別採用購物車存於資料庫的方式，讓維持用戶即使過了一段時間也能保留購物車原有的內容；最後加上搜尋欄標籤，一鍵就能完成常用的搜尋動作。
+        </span>
+    </ul>
+    <hr style="margin:10px; color:darkgrey">
+    <p class="head">專案與作品集 Portfolio</p>
+    <ul>
+        <li><span class="list">Shawning Shop (鍵盤購物網站)</span></li>
+        <li><span class="list">貪食蛇 (Pygame)</span></li>
+        <li><span class="list">小恐龍 (Pygame)</span></li>
+    </ul>
+    <hr style="margin:10px; color:darkgrey">
+    <p class="head">學歷 Education</p>
+    <ul>
+        <li><span class="list">國立中央大學 機械工程學系<span class="small">(2021-)</span></span></li>
+    </ul>
+    <hr style="margin:10px; color:darkgrey">
+    <p class="head">專業技能 Skills</p>
+    <ul>
+        <li><span class="list">Python</span></li>
+        <li><span class="list">Flask/Django</span></li>
+        <li><span class="list">Php</span></li>
+        <li><span class="list">HTML/CSS</span></li>
+        <li><span class="list">SQL</span></li>
+        <li><span class="list">C++</span></li>
+    </ul>
+    <hr style="margin:10px; color:darkgrey">
+    <p class="head">語言能力 Language</p>
+    <ul>
+        <li><span class="list">TOEFL iBT: 120</span></li>
+        <li><span class="list">TOEICL: 990</span></li>
+        <li><span class="list">JLPT N1: 檢定通過</span></li>
+    </ul>
+</div>
+<div class="right"></div>
+{% endblock content %}

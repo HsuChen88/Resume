@@ -1,0 +1,21 @@
+{% extends  'base.html' %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="static/assets/css/main.css" />
+{% endblock stylesheet %}
+
+{% block nav %}
+<li><a href="#top">Home</a></li>
+<li><a href="#work">Work</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#contact">Contact Me</a></li>
+<li><a href="/resume">Resume</a></li>
+<li><a href="/login">Login</a></li>
+{% endblock nav %}
+
+{% block content %}
+<!-- 最後應該可以整個放進來 -->
+    {% include 'home.html' %}
+    {% include 'work.html' %}
+    {% include 'portfolio.html' %}
+{% endblock content %}
